@@ -5,7 +5,8 @@ require_once __DIR__ . '/Choice/Salt.php';
 require_once __DIR__ . '/Choice/Pepper.php';
 require_once __DIR__ . '/Choice/Paprika.php';
 
-use app\Choice\{Salt,
+use app\Choice\{
+    Salt,
     Pepper,
     Paprika
 };
