@@ -1,12 +1,10 @@
-<?php
+<?php declare(strict_types=1);
 
+namespace App\Choice;
 
-namespace app\Choice;
-
-class Paprika extends Spice
+class Paprika extends Spices
 {
-
-    function getToTell(): string
+    function getName(): string
     {
         return 'PAPRIKA';
     }

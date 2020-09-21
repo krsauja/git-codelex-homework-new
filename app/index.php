@@ -1,11 +1,14 @@
-<?php
+<?php declare(strict_types=1);
 
-require_once 'Choice/Spice.php';
-require_once 'Choice/Salt.php';
-require_once 'Choice/Pepper.php';
-require_once 'Choice/Paprika.php';
+require_once __DIR__ . '/Choice/Spices.php';
+require_once __DIR__ . '/Choice/Salt.php';
+require_once __DIR__ . '/Choice/Pepper.php';
+require_once __DIR__ . '/Choice/Paprika.php';
 
-use app\Choice\{Salt, Pepper, Paprika};
+use app\Choice\{Salt,
+    Pepper,
+    Paprika
+};
 
 $spices = [
     new Salt(),
@@ -14,6 +17,6 @@ $spices = [
 ];
 
 foreach ($spices as $spice) {
-    echo '× ' . $spice->getToTell() . ' ×' . "\n";
+    echo '× ' . $spice->getName() . ' ×' . "\n";
 }
 

@@ -1,11 +1,11 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace App\Choice;
 
-class Salt extends Spice
+class Salt extends Spices
 {
 
-    function getToTell(): string
+    function getName(): string
     {
         return 'SALT';
     }
