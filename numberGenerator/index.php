@@ -14,6 +14,5 @@ $numberStorage->store($numberList);
 echo 'Number list: ' . implode(' ', $numberGenerator->getAllNumbers()) . PHP_EOL;
 echo 'Number: ' . $randomNumber . PHP_EOL;
 echo 'AVG: ' . number_format($numberGenerator->getAvg(), 2) . PHP_EOL;
-
 ?>
 

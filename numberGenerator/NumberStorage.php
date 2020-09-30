@@ -12,6 +12,5 @@ class NumberStorage
         file_put_contents('./number.txt', implode(' ', $numbers));
     }
 }
-
 ?>
 
