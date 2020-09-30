@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 class NumberStorage
 {
@@ -12,3 +12,6 @@ class NumberStorage
         file_put_contents('./number.txt', implode(' ', $numbers));
     }
 }
+
+?>
+
